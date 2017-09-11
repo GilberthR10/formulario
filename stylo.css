@@ -1,0 +1,58 @@
+body{
+    background-image: url(img/invierno-parque.jpg);
+    background-size: 100VW 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+form {
+    width: 450px;
+    margin: auto;
+        background:rgba(0,0,0,0.3);
+    padding:10px 20px; 
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top:20px;
+    
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input,textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea {
+    min-height: :100px;
+    max-height: 200px;
+    max-width: 100%;
+    
+}
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+    font-family: cursive;
+}
+#boton:hover {
+    cursor: pointer;
+    color: black;
+    background-color:darkorange;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 10px;
+}
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+    
+}
